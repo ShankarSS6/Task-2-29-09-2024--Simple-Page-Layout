@@ -13,7 +13,7 @@ body {
   background-color: whitesmoke;
   /* text-align: center; */
 }
-.section > p {
+section > p {
   color: rgb(165, 37, 90);
   font-size: x-large;
   font-weight: 500;
