@@ -8,10 +8,13 @@ body {
   min-height: 64px;
   position: sticky;
   top: 0px;
-  /* border-bottom: 1px solid; */
+
   box-shadow: 0 2px 5px 1px rgba(64, 60, 67, 0.16);
   background-color: whitesmoke;
-  /* text-align: center; */
+}
+#class > a {
+  text-decoration: none;
+  color: black;
 }
 section > p {
   color: rgb(165, 37, 90);
@@ -25,8 +28,11 @@ section > p {
   background-color: rgb(244, 218, 218);
   width: 250px;
   height: 100vh;
-  /* border-right: 1px solid; */
   box-shadow: 0 10px 5px 5px rgba(64, 60, 67, 0.16);
+}
+#side > a {
+  text-decoration: none;
+  color: black;
 }
 .main {
   min-height: 100vh;
@@ -53,25 +59,24 @@ footer {
   background-image: url("BG-1.png");
   background-repeat: no-repeat;
   background-size: cover;
+  padding-left: 15px;
 }
 #skills {
   background-image: url("BG-2.png");
   background-repeat: no-repeat;
   background-size: cover;
+  padding-left: 15px;
 }
 #about {
   background-image: url("BG-3.png");
   background-repeat: no-repeat;
   background-size: cover;
+  padding-left: 15px;
 }
 .section {
   height: 100vh;
   padding-top: 64px;
 }
-
-/* .section:nth-of-type(odd) {
-  background-color: rgba(178, 241, 245, 0.895);
-} */
 
 .search-bar {
   position: relative;
